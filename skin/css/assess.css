@@ -1,0 +1,128 @@
+﻿.banner img{display: block;height: auto;width: 100%}
+
+/* 标题、位置部分 */
+.areaGo{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 65px;
+    display: table;
+}
+.area-top{
+    position: relative;
+}
+.area-title{
+    font-size: 24px;
+    color: #666;
+    border-bottom: 2px solid #ff8d00;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.area-describe{
+    display: inline-block;
+    color: #888;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 33px;
+}
+.area-line{
+    height: 2px;
+    width: 1200px;
+    background-color: #e1e1e1;
+    margin-top: -2px;
+    margin-bottom: 47px;
+}
+.area-more{
+    color: #888;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+.active{color: #ff8d00!important;}
+.area-more a{color: #888;}
+
+.area-cont{background: white;}
+.assess-pro{text-align: center;}
+
+/* 问卷选项 */
+.assess-list,input{font-family: "微软雅黑"}
+.assess-list{margin-top:15px;margin-bottom: 15px;padding-left: 50px}
+
+.list-box{margin-top: 35px;}
+.c-m{display: inline-block;font-size: 30px;line-height: 40px;color:#616060;}
+.m-t{padding-top: 20px}
+.name i,.sex i,.old i,.phoneNum i,.state i,.reason i,.education i,.budget i,.level i{
+	display:inline-block;width: 35px;height: 30px;
+	background:url("../img/xing.png") no-repeat center;background-size: 50%;
+	position: relative;
+    top: 5px;
+}
+.CmRadio{
+	background: url("../img/radio.gif") no-repeat;
+	background-size: 67%;
+	vertical-align: middle;
+	height: 16px;
+	width: 24px;
+	display: inline-block;
+	position: absolute;
+	z-index: 0;
+	top: 13px;
+	left: 20px;
+}
+
+.check{display: inline-block;}
+.CmChecked{background-position: 0 -16px;}
+input,textarea{transition: .3s all linear;}
+input:focus,textarea:focus,.code input:focus,textarea:hover{border-color: #ff8d00;}
+.Textarea:hover,.code input:hover{border-color: #ff8d00;}
+
+
+.name-in,.old-in,.phoneNum-in,.other{
+	border: 1px solid #e7e7e7;outline: none;padding: 5px;
+	font-size: 25px;
+	width: 415px;height: 35px;
+}
+.state-check,.reason-check,.education-check,.budget-check,.level-check{width: 100%;padding-left: 15px;padding-top: 15px;}
+.phoneNum-in{width:390px}
+
+.list-box ul li{float: left;position: relative;top: 8px;text-align: left;width: 165px}
+.other{position: absolute;
+    width: 200px;
+    top: -2px;
+    right: -176px;
+    height: 29px;
+    font-size: 24px;
+    border: 1px  #e7e7e7 solid;}
+.sex-check li{width: 48.33%;}
+.state-check li,.reason-check li{width: 33.33%;margin-bottom:10px }
+
+.list-box .budget-check li{width: 270px;margin-bottom:10px}
+
+.list-box .level-check li{width: 50%;margin-bottom:15px;text-align: left;}
+.list-box .level-check li:nth-child(1),.list-box .level-check li:nth-child(3){width: 35%}
+
+.check-in{position: absolute;}
+.check-la{padding-left: 55px;position: relative;top: 3px;z-index: 2;color: #757575;font-size: 24px;}
+
+.message{width:854px;height: 235px;margin:80px auto 0; }
+.message span,.code span{float: left;font-size: 30px;color: #666666}
+.message textarea{float: left;width: 655px;height: 112px;padding: 10px;padding-top: 5px;font-size: 25px;border-color: #e7e7e7;}
+
+.code{margin-top:40px}
+.code span{position: relative;left: -30px;}
+.code input{float: left;width: 150px;position: relative;
+    left: -30px;;height: 20px;padding: 10px;outline: none;border: 1px #e7e7e7 solid;}
+.code div{float: left;font-size: 30px;color:#34bd39;}
+
+
+.refer{width: 285px;margin: 20px auto 0;padding-bottom: 80px}
+.submit {
+  	width: 100%;
+    outline: none;
+    background-color: #E75A03;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    height: 77px;
+    font-size: 40px;
+}

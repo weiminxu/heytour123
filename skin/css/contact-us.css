@@ -1,0 +1,450 @@
+﻿/* AB模版网 做最好的织梦整站模板下载网站 Www.AdminBuy.Cn */
+/* QQ：9490489 */
+/* 仿站：Fang.AdminBuy.Cn */
+/* 图标：Sc.AdminBuy.Cn */
+
+.sub-banner{
+}
+.sub-banner img{
+    width: 100%;
+}
+.areaGo{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 65px;
+    /*height: 1400px;*/
+    display: table;
+    margin-bottom: 70px;
+}
+.area-top{
+    position: relative;
+}
+.area-title{
+    font-size: 24px;
+    color: #666;
+    border-bottom: 2px solid #ff8d00;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.area-describe{
+    display: inline-block;
+    color: #888;
+    font-size: 18px;
+    margin-left: 33px;
+}
+.area-line{
+    height: 2px;
+    width: 1200px;
+    background-color: #e1e1e1;
+    margin-top: -2px;
+    margin-bottom: 47px;
+}
+.area-more{
+    color: #888;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+.active{color: #ff8d00!important;}
+.area-more a{color: #888;}
+.area-main{
+    float: left;
+    width: 882px;
+}
+.area-news{
+    background-color: #fff;
+    border: 1px solid #d2d2d2;
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-bottom: 56px;
+    height: auto;
+    position: relative;
+    border-bottom: 0;
+}
+.company-block{
+    margin-top: 37px;
+}
+.img-box{
+    width: 822px;
+    height: 384px;
+    margin-bottom: 40px;
+}
+.company-block img{
+    margin-bottom: 42px;
+}
+.company-block h1{
+    color: #ff8d00;
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+.company-block h2{
+    color: #ff8d00;
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.AU-belong h1{
+    color: #e75a03;
+}
+
+.AU-belong h2{
+    color: #e75a03;
+}
+.company-block p{
+    color: #7b7b7b;
+    font-size: 14px;
+    line-height: 24px;
+}
+.lecture-signWindow {
+    width: 880px;
+    height: 400px;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    position: relative;
+    border-top: 0;
+}
+
+
+.lecture-signWindow h4{
+    font-size: 20px;
+    font-weight: normal;
+    color: #e57f00;
+    line-height: 24px;
+}
+.signWindow-top{
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*margin-top: 32px;*/
+}
+.signWindow-top h3{
+    font-size: 24px;
+    font-weight: normal;
+    color: #e57f00;
+    margin-bottom: 30px;
+    text-align: left;
+    text-indent: .3em;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 26px;
+}
+
+
+.signWindow-line{
+    background-color: #eaeaea;
+    height: 2px;
+    width: 100%;
+}
+.signWindow-close{
+    position: absolute;
+    right: 35px;
+    top: -17px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #7b7b7b;
+}
+.signWindow-info{
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 27px;
+}
+.signWindow-input li{
+    display: inline-block;
+    color: #666;
+    float: left;
+    position: relative;
+}
+.signWindow-input li i{
+    position: absolute;
+    top: 11px;
+    left: -5%;
+    color: #ff0000;
+    font-style: normal;
+}
+.signWindow-input li:last-child i{
+    position: absolute;
+    top: 19px;
+    left: -5%;
+}
+.signWindow-input li:nth-child(odd){
+    margin-right: 50px;
+}
+.signWindow-input li input{
+    width: 258px;
+    height: 38px;
+    margin-bottom: 20px; 
+    margin-left: 30px;   
+    text-indent: .35em;
+    border: 1px solid #d3d3d3;
+    transition: all .3s linear;
+}
+.signWindow-input li:last-child input{
+    width: 185px;
+    height: 38px;
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    margin-left: 43px;   
+    text-indent: .35em;
+    border: 1px solid #d3d3d3;
+}
+.signWindow-input li input:focus, .signWindow-input li input:hover{
+    border: 1px solid #ff8d00;
+}
+.signWindow-input li select{
+    width: 262px;
+    height: 42px;
+    margin-bottom: 20px;   
+    margin-left: 25px;
+    border-radius: 0;
+    border: 1px solid #d3d3d3;
+    transition: all .2s linear;
+}
+.signWindow-input li select:hover{
+    border: 1px solid #ff8d00;
+}
+.signWindow-input li:nth-child(7){
+    letter-spacing: 16px;
+    margin-right: 0;
+}
+.signWindow-input li:nth-child(7) span{
+    position: absolute;
+}
+.signWindow-input li:nth-child(8) img{
+    height: 38px; 
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.signWindow-input li textarea{
+    margin-left: 99px;
+    height: 117px;
+    width: 680px;
+    border: 1px solid #d3d3d3;
+    text-indent: .35em;
+    transition: all .2s linear;
+}
+.signWindow-input li textarea:focus, .signWindow-input li textarea:hover{
+    border: 1px solid #ff8d00;
+}
+.signWindow-btn{
+    background-color: #ff8d00;
+    position: absolute;
+    border: 0;
+    top:70%;
+    left: 50%;
+    color: #fff;
+    padding: 5px 35px;
+    font-size: 24px;
+    transform: translate(-50%, 0);
+}
+.area-sub{
+    float: right;
+    width: 293px;
+}
+.sub-blockCall, .sub-blockNews, .sub-blockMenu{
+    width: 292px;
+    border: 1px solid #d2d2d2;
+    margin-bottom: 22px;
+    background-color: #fff;
+}
+.sub-blockMenu{
+    text-align: center;
+}
+.sub-blockMenu li{
+    font-size: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #d2d2d2;
+}
+.sub-blockMenu li:hover{
+    border-left: 2px solid #ff8d00;
+    margin-left: -1px;
+}
+.sub-blockMenu li a{
+    transition: color .2s linear;
+}
+.sub-blockMenu li:hover a{
+    color: #ff8d00;
+}
+.sub-blockMenu .active{
+    border-left: 2px solid #ff8d00;
+    margin-left: -1px;
+}
+.sub-blockMenu li:last-child{
+    border-bottom: 0;
+}
+.sub-blockMenu li a{
+    color: #666;
+}
+.sub-blockMenu .active a{
+    color: #ff8d00;
+}
+.sub-blockCall{
+    height: auto;
+}
+.sub-blockCall-info{
+    padding-left: 19px;
+    padding-right: 19px;
+	margin-bottom: 15px;
+
+}
+.sub-blockCall-phone{
+    float: left;
+    margin-top: 25px;
+    padding: 4px 3px;
+}
+.sub-blockCall-phoneNum{
+    margin-top: 20px;
+    margin-left: 14px;
+}
+.sub-blockCall-phoneNum p:first-child{
+    color: #666;
+    font-size: 14px;
+}
+.sub-blockCall-phoneNum p:last-child{
+    color: #666;
+    font-size: 24px;
+}
+.sub-blockCall-phone{
+    border: 1px solid #b5b5b5; 
+    display: inline-block;
+}
+.sub-blockCall-phoneNum{
+    display: inline-block;
+}
+.sub-blockCall-input{
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+.sub-blockCall-input input{
+    height: 37px;
+    width: 191px;
+    border: 1px solid #b5b5b5;
+    border-right: 0;
+    text-indent: .35em;
+}
+.sub-blockCall-input button{
+    background-color: #0896d6;
+    color: #fff;    
+    font-size: 18px;
+    padding: 6px 10px 9px;
+    border: 1px solid #0896d6;
+    border: 0;
+    margin-left: -6px;
+    cursor: pointer;
+}
+.sub-blockCall-des{
+    color: #ff8d00;
+    text-align: center;
+    font-size: 12px;
+}
+.sub-blockCall-des span{
+    color: #0896d6;
+}
+.sub-blockNews{
+    height: auto;
+}
+.sub-blockNews-top{
+    padding-left: 19px;
+    padding-right: 19px;
+    position: relative;
+}
+.sub-blockNews-title{
+    color: #666;
+    font-size: 16px;
+    border-bottom: 2px solid #ff8d00;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-top: 25px;
+}
+.sub-blockNews-more{
+    position: absolute;
+    right: 19px;
+    top: 27px;
+    color: #999;
+}
+.sub-blockNews-more a{
+    color: #999;
+}
+.sub-blockNews-more span{
+    font-family: '宋体';
+}
+.sub-blockNews-line{
+    width: 100%;
+    height: 2px;
+    background-color: #e1e1e1;
+    margin-top: -2px;
+}
+.sub-blockNews-info{
+    padding-left: 19px;
+    padding-right: 19px;
+    margin-bottom: 19px;
+    height: auto;
+    overflow: hidden;
+}
+.sub-blockNews-info li{
+    border-bottom: 1px dashed #e5e5e5;
+}
+.sub-blockNews-info li p{
+    transition: all .1s linear;
+}
+.sub-blockNews-info li p:first-child:before{
+    content: '❘▶';
+    font-size: 16px;
+    margin-right: 10px;
+}
+.sub-blockNews-info li p:first-child{
+    color: #b0b0b0;
+    margin-bottom: 5px;
+    margin-top: 13px;
+}
+.sub-blockNews-info li p:last-child{
+    color: #666;
+    margin-left: 28px;
+    margin-bottom: 10px;
+}
+.sub-blockNews-info li:hover p{
+    color: #ff8d00;
+}
+@media (max-width: 1650px) {
+    .sub-blockCall-input button{
+        padding: 8px 10px 10px;
+    }
+    .sub-blockCall-des{
+        line-height: 22px;
+        margin-top: 14px;
+    }
+    .sub-blockNews-info li p:first-child{
+        margin-top: 16px;
+    }
+}
+@media (max-width: 1750px) {
+    .area-news{
+        padding-bottom: 51px;
+    }
+    .grow-stepOne-arrow{
+        left: -30.1%;
+    }
+    .signWindow-input li textarea{
+        margin-left: 99px;
+        width: 673px;
+    }
+}
+@media (max-width: 1550px) {
+    .sub-blockCall-input button{
+        padding: 7px 10px 10px;
+    }
+    .sub-blockCall-des{
+        line-height: 20px;
+        margin-top: 16px;
+    }
+    .area-news{
+        padding-bottom: 41px;
+    }
+    .signWindow-input li textarea{
+        margin-left: 97px;
+        width: 672px;
+    }
+}

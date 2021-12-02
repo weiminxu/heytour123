@@ -1,0 +1,190 @@
+﻿.banner img{display: block;height: auto;width: 100%}
+
+/* 标题、位置部分 */
+.areaGo{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 65px;
+    display: table;
+}
+.area-top{
+    position: relative;
+}
+.area-title{
+    font-size: 24px;
+    color: #666;
+    border-bottom: 2px solid #ff8d00;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.area-describe{
+    display: inline-block;
+    color: #888;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 33px;
+}
+.area-more{
+    color: #999;
+    font-size: 18px;
+    position: absolute;
+    right: 0;
+    top: 6px;}
+.area-line{
+    height: 2px;
+    width: 1200px;
+    background-color: #e1e1e1;
+    margin-top: -2px;
+    margin-bottom: 20px;
+}
+.area-more{
+    color: #888;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+.active{color: #ff8d00!important;}
+.area-more a{color: #888;}
+.area-cont{background: white;}
+.assess-pro{text-align: center;}
+
+/* 选项卡 */
+.cur{background: #ff8d00;}
+.Gold-list:hover{background: #ff8d00;}
+.areaGold{background: #c3c3c3}
+.Gold-list{
+    cursor: pointer;
+    transition: all .2s linear;
+    float: left;
+    border-right: 5px solid #f2f2f2;
+    width: 396px;height: 73px;
+    text-align: center;font-size: 30px;line-height: 73px;font-weight: bold; 
+}
+.Gold-list:nth-child(3){border:none;}
+.Gold-list a{color: white;padding: 16px}
+.Gold-list span{font-size: 18px;line-height: 85px;font-weight: normal;}
+
+.area-sc{margin-top: 53px;position: relative;}
+
+/* 移民项目 */
+
+#immigrant{margin-top:8px;background-color:white;padding:10px;padding-bottom: 30px;}
+#immigrant span,#immigrant .hd,#immigrant p{font-family: "微软雅黑"}
+.immigrant-title{overflow:hidden;}
+.immigrant-title .hd{display: inline-block;color: #666666;font-size: 20px}
+.immigrant-title span{text-transform:uppercase;color:#b9b9b9;font-size: 14px}
+.more{float: right;color:#888888;line-height: 25px;margin-right: 15px;position: relative;font-family: "微软雅黑"}
+.icon-chevron-thin-right{position: absolute;top: 7px;}
+.icon-chevron-thin-right:before{font-size: 14px;}
+
+.immigrant-item:after{content: "";display: block;clear: both;}
+.item-list{
+    width: 275px;height: 343px;
+    float: left;position: relative;
+    margin-top: 25px;margin-right: 30px;border:1px solid #e3e3e3;
+    background: white;
+    transition: .3s all linear;
+}
+
+.keyword{width: 50px;height: 50px;background-color:#ff8d00;position: absolute;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    font-family: "微软雅黑";
+    top: -10px;
+    right: 27px;
+    max-width: 50px;
+}
+.triangular{
+    position: absolute;width: 0;height: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #d25c00;
+    left: -20px;
+}
+.item-list:nth-child(4n){margin-right:0;}
+.item-list-pro{width: 100%;overflow: hidden;height: 163px;}
+.item-list-info{padding: 20px 25px 15px 25px;height: 124px;overflow: hidden;}
+.item-list-info .hd{
+    font-size: 24px;text-align:center;color:#666666;font-weight: normal;
+}
+.item-list-info p{
+    font-size: 14px;line-height: 24px;color:#888888;
+    margin-top:10px;
+}
+
+
+/* 分页 */
+.page{margin: 0 auto;position: relative;text-align: center;margin-bottom: 25px;margin-top: 50px}
+.page ul {
+    list-style: none;
+    padding: 0 12px;
+    /* background: #0880d8; */
+    display: inline-block;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 5px;
+   /*  box-shadow: 0px 4px #606060, 0px 4px 6px rgba(0, 0, 0, 0.3); */
+}
+.page ul li {
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-right: 0px;
+    display: inline-block;
+    position: relative;
+    border:1px solid #d3d3d3;
+    bottom: -11px;
+}
+.page ul li a {
+    background: white;
+    display: block;
+    padding: 0 12px;
+    color: #959595;
+    position: relative;
+    text-decoration: none;
+    height: 27px;
+    line-height: 27px;
+    font-family: "微软雅黑";
+    transition: all .2s linear;
+    /* box-shadow: 0px 3px #7fafbc, 0px 4px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease; */
+}
+.page ul li a.cur {
+    background: #ff8d00;
+    color: white;
+}
+.pre_page a:hover,.next_page a:hover, .page_number a:hover,.end a:hover,.page-li a:hover{
+    background-color: #ff8d00;
+    color: #fff;
+}
+
+
+
+.immigrant-item2{margin-bottom: 70px}
+.item-list2{
+    width: 274px;height: 360px;
+    float: left;position: relative;
+    margin-top: 25px;margin-right: 30px;border:1px solid #e3e3e3;
+    background: white;
+    transition: .3s all linear;
+}
+
+.item-list-pro2 img{width: 274px;height: 173px}
+.item-list-info2{padding: 22px 20px 10px 20px;height: 150px;overflow: hidden;}
+.item-list-info2 .hd{
+    font-size: 18px;text-align:center;color:#666666;font-weight: normal;
+}
+.item-list-info2 p{
+    height: 139px;
+    font-size: 12px;line-height: 24px;color:#888888;
+    margin-top:10px;
+}
+.item-list2:nth-child(4n){margin-right:0;}
+.detail{color: #ff8d00}
+
+
+.item-list:hover,.item-list2:hover{
+    box-shadow: 0 0px 15px rgba(0, 0, 0, .3)
+}
+

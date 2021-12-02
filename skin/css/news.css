@@ -1,0 +1,541 @@
+﻿/* AB模版网 做最好的织梦整站模板下载网站 Www.AdminBuy.Cn */
+/* QQ：9490489 */
+/* 仿站：Fang.AdminBuy.Cn */
+/* 图标：Sc.AdminBuy.Cn */
+
+.sub-banner{
+}
+.sub-banner img{
+    width: 100%;
+}
+.areaGo{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 65px;
+    /*height: 2700px;*/
+    display: table;
+    margin-bottom: 50px;
+}
+.areaSubGo{
+    width: 882px;
+    /*margin: 0 auto;*/
+    margin-top: 65px;
+    height: 785px;
+}
+.lecture-signWindow{
+    width: 882px;
+    height: 650px;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    position: relative;
+}
+.signWindow-top{
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 32px;
+}
+.signWindow-top h3{
+    font-size: 16px;
+    font-weight: normal;
+    color: #e57f00;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.signWindow-line{
+    background-color: #eaeaea;
+    height: 2px;
+    width: 100%;
+}
+.signWindow-close{
+    position: absolute;
+    right: 35px;
+    top: -17px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #7b7b7b;
+}
+.signWindow-info{
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 27px;
+}
+.signWindow-input li{
+    display: inline-block;
+    color: #666;
+    float: left;
+    position: relative;
+}
+.signWindow-input li i{
+    position: absolute;
+    top: 11px;
+    left: -5%;
+    color: #ff0000;
+}
+.signWindow-input li:last-child i{
+    position: absolute;
+    top: 19px;
+    left: -5%;
+    font-style: normal;
+}
+.signWindow-input li:nth-child(odd){
+    margin-right: 50px;
+}
+.signWindow-input li input{
+    width: 258px;
+    height: 38px;
+    margin-bottom: 20px; 
+    margin-left: 30px;   
+    text-indent: .35em;
+    border: 1px solid #d3d3d3;
+    transition: all .3s linear;
+}
+.signWindow-input li:last-child input{
+    width: 185px;
+    height: 38px;
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    margin-left: 40px;   
+    text-indent: .35em;
+    border: 1px solid #d3d3d3;
+}
+.signWindow-input li input:focus, .signWindow-input li input:hover{
+    border: 1px solid #ff8d00;
+}
+.signWindow-input li select{
+    width: 260px;
+    height: 42px;
+    margin-bottom: 20px;   
+    margin-left: 26px;
+    border-radius: 0;
+    border: 1px solid #d3d3d3;
+    transition: all .2s linear;
+}
+.signWindow-input li select:hover{
+    border: 1px solid #ff8d00;
+}
+.signWindow-input li:nth-child(7){
+    letter-spacing: 16px;
+    margin-right: 0;
+}
+.signWindow-input li:nth-child(7) span{
+    position: absolute;
+}
+.signWindow-input li:nth-child(8) img{
+    height: 38px; 
+    width: 100px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.signWindow-input li textarea{
+    margin-left: 100px;
+    height: 117px;
+    width: 668px;
+    border: 1px solid #d3d3d3;
+    text-indent: .35em;
+    transition: all .2s linear;
+}
+.signWindow-input li textarea:focus, .signWindow-input li textarea:hover{
+    border: 1px solid #ff8d00;
+}
+.signWindow-btn{
+    background-color: #ff8d00;
+    position: absolute;
+    top:85%;
+    left: 50%;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 16px;
+    transform: translate(-50%, 0);
+}
+.area-top{
+    position: relative;
+}
+.area-title{
+    font-size: 24px;
+    color: #666;
+    border-bottom: 2px solid #ff8d00;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.area-describe{
+    display: inline-block;
+    color: #888;
+    font-size: 18px;
+    margin-left: 33px;
+}
+.area-line{
+    height: 2px;
+    width: 1200px;
+    background-color: #e1e1e1;
+    margin-top: -2px;
+    margin-bottom: 47px;
+}
+.areaSub-line{
+    height: 2px;
+    width: 882px;
+    background-color: #e1e1e1;
+    margin-top: -2px;
+    margin-bottom: 47px;
+}
+.area-more{
+    color: #888;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+.active{color: #ff8d00!important;}
+.area-more a{color: #888;}
+.area-main{
+    float: left;
+    width: 882px;
+    /*height: 1228px;*/
+    /*background-color: #fff;*/
+    /*border: 1px solid #d2d2d2;*/
+}
+.area-sub{
+    float: right;
+    width: 293px;
+}
+.sub-blockMenu{
+    width: 292px;
+    border: 1px solid #d2d2d2;
+    margin-bottom: 22px;
+    background-color: #fff;
+}
+.sub-blockMenu{
+    text-align: center;
+}
+.sub-blockMenu li{
+    font-size: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #d2d2d2;
+}
+.sub-blockMenu li:hover{
+    border-left: 2px solid #ff8d00;
+    margin-left: -1px;
+}
+.sub-blockMenu li a{
+    transition: color .2s linear;
+}
+.sub-blockMenu li:hover a{
+    color: #ff8d00;
+}
+.sub-blockMenu .active{
+    border-left: 2px solid #ff8d00;
+    margin-left: -1px;
+}
+.sub-blockMenu li:last-child{
+    border-bottom: 0;
+}
+.sub-blockMenu li a{
+    color: #666;
+}
+.sub-blockMenu .active a{
+    color: #ff8d00;
+}
+.areaNewsGo{
+    background-color: #fff;
+    border: 1px solid #d2d2d2;
+}
+.areaNewsGo-top{
+    text-align: center;
+}
+.areaNewsGo-top h1{
+    color: #4f4f4f;
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+.areaNewsGo-belong{
+    color: #b0b0b0;
+    font-size: 12px;
+    margin-bottom: 32px;
+}
+.areaNewsGo-belong span{
+    padding-right: 20px;
+}
+.areaNewsGo-info{
+    padding-left: 55px;
+    padding-right: 55px;
+    /*text-align: center;*/
+}
+.areaNewsGo-info img{max-width: 100%}
+.areaNewsGo-info p{
+    /*color: #000;*/
+    /*font-size: 14px;*/
+    line-height: 24px;
+    /*margin-bottom: 25px;*/
+    text-align: left;
+}
+.areaNewsGo-info span{text-align: left;}
+.areaNewsGo-info h4{
+    color: #828181;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 25px;
+    text-align: left;
+}
+.areaNewsGo-info img {
+    /*margin-bottom: 25px;*/
+}
+.areaNews-PN{
+    margin-top: 40px;
+    /*margin-bottom: 25px;*/
+    height: 50px;
+}
+.areaNews-PN a{color:#8d8d8d}
+.areaNews-PN a:hover{color: #e57f00}
+.areaNews-prev{
+    float: left;
+    color: #8d8d8d;
+    font-size: 12px;
+}
+.areaNews-next{
+    float: right;
+    color: #8d8d8d;
+    font-size: 12px;
+}
+
+.sub-blockCall, .sub-blockNews, .sub-blockImpact{
+    width: 292px;
+    border: 1px solid #d2d2d2;
+    margin-bottom: 22px;
+    background-color: #fff;
+}
+.main-blockNews{
+    width: 882px;
+    border: 1px solid #d2d2d2;
+    margin-bottom: 22px;
+    background-color: #fff;
+}
+.sub-blockCall{
+    height: auto;
+}
+.sub-blockCall-info{
+    padding-left: 19px;
+    padding-right: 19px;
+	margin-bottom:19px;
+}
+.sub-blockCall-phone{
+    float: left;
+    margin-top: 25px;
+    padding: 4px 3px;
+}
+.sub-blockCall-phoneNum{
+    margin-top: 20px;
+    margin-left: 14px;
+}
+.sub-blockCall-phoneNum p:first-child{
+    color: #666;
+    font-size: 14px;
+}
+.sub-blockCall-phoneNum p:last-child{
+    color: #666;
+    font-size: 24px;
+}
+.sub-blockCall-phone{
+    border: 1px solid #b5b5b5; 
+    display: inline-block;
+}
+.sub-blockCall-phoneNum{
+    display: inline-block;
+}
+.sub-blockCall-input{
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+.sub-blockCall-input input{
+    height: 35px;
+    width: 191px;
+    border: 1px solid #b5b5b5;
+    border-right: 0;
+    text-indent: .35em;
+}
+.sub-blockCall-input button{
+    background-color: #0896d6;
+    color: #fff;    
+    font-size: 18px;
+    padding: 5px 10px 8px;
+    border: 1px solid #0896d6;
+    border: 0;
+    margin-left: -6px;
+    cursor: pointer;
+}
+.sub-blockCall-des{
+    color: #ff8d00;
+    text-align: center;
+    font-size: 12px;
+}
+.sub-blockCall-des span{
+    color: #0896d6;
+}
+.sub-blockNews{
+    height: auto;
+}
+.sub-blockNews-top{
+    padding-left: 19px;
+    padding-right: 19px;
+    position: relative;
+}
+.main-blockNews-top{
+    padding-left: 55px;
+    padding-right: 55px;
+    position: relative;
+}
+.sub-blockNews-title{
+    color: #666;
+    font-size: 16px;
+    border-bottom: 2px solid #ff8d00;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-top: 25px;
+}
+.main-blockNews-title{
+    color: #666;
+    font-size: 16px;
+    border-bottom: 2px solid #ff8d00;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-top: 25px;
+}
+.sub-blockNews-more{
+    position: absolute;
+    right: 19px;
+    top: 27px;
+}
+.main-blockNews-more{
+    position: absolute;
+    right: 56px;
+    bottom: 10px;
+}
+.sub-blockNews-more a{
+    color: #999;
+}
+.main-blockNews-more a{
+    color: #999;
+}
+.sub-blockNews-more span{
+    font-family: '宋体';
+}
+.main-blockNews-more span{
+    font-family: '宋体';
+}
+.sub-blockNews-line{
+    width: 100%;
+    height: 2px;
+    background-color: #e1e1e1;
+    margin-top: -2px;
+}
+.main-blockNews-line{
+    width: 100%;
+    height: 2px;
+    background-color: #e1e1e1;
+    margin-top: -2px;
+}
+.sub-blockNews-info{
+    padding-left: 19px;
+    padding-right: 19px;
+	margin-bottom:19px;
+    overflow: hidden;
+    height: auto;
+}
+.main-blockNews-info{
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-bottom: 30px;
+}
+.sub-blockNews-info li{
+    border-bottom: 1px dashed #e5e5e5;
+}
+.sub-blockNews-info li p{
+    transition: all .1s linear;
+}
+.sub-blockNews-info li p:first-child:before{
+    content: '❘▶';
+    font-size: 16px;
+    margin-right: 10px;
+}
+.main-blockNews-info li{
+}
+.main-blockNews-info li p:first-child:before{
+    content: '·';
+    font-size: 16px;
+    margin-right: 0px;
+    color: #ff8d00;
+    padding-right:10px; 
+}
+.sub-blockNews-info li p:first-child{
+    color: #b0b0b0;
+    margin-bottom: 5px;
+    margin-top: 13px;
+}
+.sub-blockNews-info li p:last-child{
+    color: #666;
+    margin-left: 28px;
+    margin-bottom: 10px;
+}
+.main-blockNews-info li p:first-child{
+    color: #666;
+    margin-left: 0px;
+    /*margin-bottom: 10px;*/
+    margin-bottom: 5px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.main-blockNews-info li p:last-child{
+    color: #b0b0b0;
+    margin-bottom: 5px;
+    margin-top: 13px;
+    margin-top: 30px;
+    display: inline-block;
+    float: right;
+}
+.sub-blockNews-info li:hover p{
+    color: #ff8d00;
+}
+.sub-blockImpact{
+    height: 323px;
+}
+@media (max-width: 1650px) {
+    .areaGo {
+        /*height: 2620px;*/
+    }
+    .sub-blockCall-input button{
+        padding: 8px 10px 10px;
+    }
+    .sub-blockCall-des{
+        line-height: 22px;
+        margin-top: 14px;
+    }
+    .signWindow-input li textarea{
+        margin-left: 98px;
+        width: 670px;
+    }
+    .signWindow-input li:last-child input{
+        margin-left: 40px;
+    }
+    .signWindow-input li textarea{
+        margin-left: 99px;
+        width: 673px;
+    }
+}
+@media (max-width: 1550px) {
+    .sub-blockCall-input button{
+        padding: 7px 10px 10px;
+    }
+    .sub-blockCall-des{
+        line-height: 20px;
+        margin-top: 16px;
+    }
+    .signWindow-input li:last-child input{
+        margin-left: 42px;
+    }
+    .signWindow-input li textarea{
+        margin-left: 97px;
+        width: 672px;
+    }
+}
